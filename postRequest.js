@@ -25,3 +25,10 @@ function postRequestPromise (url, param){
     request.send (param);
   });
 }
+
+//usage
+//postRequestPromise('http://localhost:8000', 'test').then(function(response){
+//  console.log (response);
+//}).catch(function(error){
+//  console.log (error);
+//});
